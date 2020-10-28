@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Basketball Tournament Registration Form</title>
+	
+</head>
+
+<body style="background: #84889c;">
+
+	<div class="wrapper" style="padding: 0,10,0,10;min-height: 100%;display: flex;justify-content: center;align-items: center;">
+		<div class="registration_form" style="border-top-right-radius: 20px; border-top-left-radius: 20px;width: 590px;margin-top: 50px; background: white;">
+			<img src="image/basketball.png" style="border-top-right-radius: 20px; border-top-left-radius: 20px;" >
+			<div class="title" style="font-family: Poppins; font-size: 35px; font-weight: normal;text-align: center;line-height: 50px;color: #3b3b3b; margin-top: 20px;">
+				Basketball Tournament
+			</div>
+			<div class="title" style="font-family: Poppins; font-size: 25px; font-weight: normal;text-align: center;line-height: 25px;color: #3b3b3b; margin-bottom: 20px;">
+				Registration Form
+			</div>
+
+			<div class="attend" style="font-family: Lato; font-size: 15px;font-weight: normal;text-align: center;line-height: 50px;color: #4f4f4f">
+				Just fill out the form below. And register for the basketball tournament.
+			</div>
+			<hr style="margin: 20px 25px 20px 25px;
+			text-align:center;">
+
+			<div class="objective">
+				<h4 style="font-family: Poppins; font-size: 35px;font-weight: normal; text-align: left;line-height: 50px;color: #414141; margin-left: 20px;margin-bottom: 15px;">
+				Objective
+			</h4>
+				<p style="font-family: Lato; font-size: 15px;font-weight: normal;text-align: left;line-height: 23px;color: #4f4f4f; margin-left:20px; margin-right: 20px;">To provide an opportunity for girls and boys to play basketball in an organized, competitive, and recreational manner. Our emphasis is on fundamentals, teamwork, playing time and sportsmanship.</p>
+			</div>      
+			<form>
+				<div class="form_wrap" style="margin-top: 35px">
+					<div class="input_wrap" style="margin-right: 10px; margin-left: 10px; padding: 10px 10px;">
+						<input type="text" name="fname" placeholder="First Name" style="width: 550px;height: 40; padding: 10px 10px 10px 10px;box-sizing: border-box;font-family: 'Montserrat', sans-serif;">
+					</div>
+
+					<div class="input_wrap" style="margin-right: 10px; margin-left: 10px; padding: 10px 10px;">
+						<input type="text" name="lname" placeholder="Last Name" style="width: 550px;height: 40; padding: 10px 10px 10px 10px;box-sizing: border-box;font-family: 'Montserrat', sans-serif;">
+					</div>
+					<div class="input_wrap" style="margin-top: 12px;">
+						<input type="telp" name="phone" pattern="\(\d\d\d\d)-\d\d\d\d\d\d\d" placeholder="Phone Number"style="margin-right: 20px; margin-left: 20px; padding: 10px 10px;">
+						<input type="date" name="tanggal" placeholder="Birth day"style="margin-right: 20px; margin-left: 20px; padding: 10px 10px;">
+					</div>
+
+					<div class="input_wrap" >
+						<label style="font-family:Source Sans Pro; font-size: 20px; font-weight: normal;text-align: left; line-height: 23px;color: #3b3b3b;margin: 20px 20px 20px 20px;display: block;margin-bottom: 10px;color: black;">Gender</label>
+
+						<select name="Gender" style="margin-bottom: 10px;margin-left: 20px; width: 550px; height: 40px;" >
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+              			</select>
+					</div>
+					<div class="input_wrap" style="margin-right: 10px; margin-left: 10px; padding: 10px 10px;">
+						<input type="text" name="expert" placeholder="How many experience do you have?" style="width: 550px;height: 40; padding: 10px 10px 10px 10px;box-sizing: border-box;font-family: 'Montserrat', sans-serif;">
+					</div>
+
+					<div class="input_wrap">
+						<label style="font-family:Source Sans Pro; font-size: 20px; font-weight: normal;text-align: left; line-height: 23px;color: #3b3b3b;margin: 20px 20px 20px 20px;display: block;color: black;">Your expertise skill:
+						</label>
+					</div>
+					<div class="input_wrap" style="margin-right: 10px; margin-left: 20px; display: block;">
+						<label style="display: block;margin-bottom: 10px;color:black;box-sizing: border-box;font-family: 'Montserrat', sans-serif;"><input type="checkbox" name="skill1" value="handling"> <span class="checkmark"></span>Ball handling</label>
+						<label style="display: block;margin-bottom: 10px;color: black;box-sizing: border-box;font-family: 'Montserrat', sans-serif;"><input type="checkbox" name="skill2" value="handling"> <span class="checkmark"></span>Shooting</label>
+						<label style="display: block;margin-bottom: 10px;color: black;box-sizing: border-box;font-family: 'Montserrat', sans-serif;"><input type="checkbox" name="skill3" value="handling"> <span class="checkmark"></span>Passing</label>
+		            </div>
+					
+
+		            <div class="input_wrap">
+              			<label style="font-family:Source Sans Pro;font-size: 20px; font-weight: normal;text-align: left; line-height: 23px;color: #3b3b3b;margin: 20px 20px 20px 20px;display: block;color: black;">Do you suffer from any injury/illness?
+						</label>
+						
+						<label for="yes" style="margin-left: 20px;display: block; margin-bottom:10px;color: black;box-sizing: border-box;font-family: 'Montserrat', sans-serif;"><input type="radio" id="yes" name="option" value="yes" > Yes</label>
+              			<label for="no" style="margin-left: 20px;display: block;margin-bottom: 10px;color:black;box-sizing: border-box;font-family: 'Montserrat', sans-serif;"><input type="radio" id="no" name="option" value="no"> No</label>
+              		</div>
+					<br>
+              		<hr style="margin: 20px 25px 20px 25px;text-align:center; color: black">
+						<br>
+              		<div class="input_wrap" style="margin-left: 20px; text-align: left; font-size: 15px; display: block;">
+		              	<label style="display: block;margin-bottom: 3px;color: black;"><input type="checkbox" name="terms1" value="statement"> The undersigned states that he/she understands that and shall not be responsible for or liable for any illness, or injury to person or damage to property resulting from the program in which the undersigned is enrolling or being enrolled or from his/her participating in said program.</label>
+		              	<label style="display: block;margin-bottom: 3px;color: black;"><input type="checkbox" name="terms2"> Team is selected by the Basketball committee based on registrations received.</label>
+		              	<label style="display: block;margin-bottom: 3px;color: black;"><input type="checkbox" name="terms3" > My parents support me in all my decisions.</label>
+		              	<label style="display: block;margin-bottom: 3px;color: black;"><input type="checkbox" name="terms4"> All terms and condition are acceptable.</label>
+		            </div>
+              </div>
+              <button type="button" onclick="alert('We have saved your data, thank you')" style="font-size: 20px;text-align: center; margin: 30px 20px 20px 195px;padding: 10px 20px 10px 20px;">Send Details</button>
+
+
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
